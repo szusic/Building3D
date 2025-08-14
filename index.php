@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<!--  <meta content="width=device-width, initial-scale=1.0" name="viewport">-->
+
+  <title>Building3D</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Building3D_icon.png" rel="icon">
+  <link href="assets/img/Building3D_icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS files -->
+  <link href="assets/css/home.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizPage
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="index.php">Building3D</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="./index.php">Home</a></li>
+              <li><a class="nav-link scrollto" href="./reconstruction.php">Reconstruction</a></li>
+              <li><a class="nav-link scrollto" href="./3dlabelme.php">3DLabelMe</a></li>
+              <li><a class="nav-link scrollto" href="./benchmark.php">Benchmark</a></li>
+              <li><a class="nav-link scrollto " href="./team.php">Team</a></li>
+              <li><a class="nav-link scrollto " href="account.php">Account</a></li>
+
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+        </div>
+      </div>
+
+
+
+    </div>
+  </header><!-- End Header -->
+
+<section id="hero">
+    <div class="carousel-item active" style="background-image: url(assets/img/image2.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Building3D</h2>
+                <p class="animate__animated animate__fadeInUp">An urban-scale dataset for 3D building reconstruction</p>
+                <a href="https://arxiv.org/abs/2307.11914" class="btn-get-started scrollto animate__animated animate__fadeInUp">Paper</a>
+                <a href="#Preview" class="btn-get-started scrollto animate__animated animate__fadeInUp">Video</a>
+                <a href="https://github.com/geospatial-lab/Building3D" class="btn-get-started scrollto animate__animated animate__fadeInUp">Code</a>
+              </div>
+            </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+
+  <main id="main">
+
+    <!-- ======= Abstract ======= -->
+    <section id="abstract">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Abstract</h3>
+          <p class="text-justify"><b>Building3D</b> is an <b>urban-scale dataset</b> for building roof modelling from aerial LiDAR point clouds. It consists of more than <b>160 thousand buildings</b>, covering  <b>16 cities</b>  in Estonia about <b>998 Km<sup>^2</sup></b>. Besides <b>mesh models and real-world LiDAR point clouds</b>, it is the first time to release <b>wireframe models</b>. We believe that our Building3D will facilitate future research on <b>urban modelling, mesh simplification, point cloud completion and semantic segmentation etc.</b></p>
+        </header>
+
+      </div>
+    </section>
+    <!-- End Abstract Section -->
+
+    <!-- ======= Preview ======= -->
+    <section id="Preview">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Building3D Preview</h3>
+           <div class="ratio ratio-16x9">
+                <iframe class="embed-responsive-item" src="./assets/video/National_youtube.mp4" allowfullscreen></iframe>
+          </div>
+          </header>
+
+      </div>
+    </section>
+    <!-- End Preview Section -->
+
+    <!-- ======= Citations section ======= -->
+    <section id="citation">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Citation</h3>
+          <div class="row">
+            <div class="col">
+              <p class="m-0">If you find our dataset useful, please cite the following paper:</p>
+              <div class="card">
+                <div class="card-body">
+                   <pre class="mb-0">
+@inproceedings{Building3d,
+  title={Building3D: An Urban-Scale Dataset and Benchmarks for Learning Roof Structures from Point Clouds},
+  author={Ruisheng Wang, Shangfeng Huang, Hongxin Yang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={},
+  year = {2023}
+}</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
+    <!-- End Citations Section -->
+
+    <!-- ======= ChangeLog section ======= -->
+    <section id="annoucement">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>ChangeLog</h3>
+          <div class="row">
+            <div class="col">
+              <ul class="list-group">
+                <li class="list-item">
+                  <span class="date">2023-7-21</span>
+                  <span>Entry-level dataset</span>
+                </li>
+                <li class="list-item">
+                  <span class="date">2023-4-15</span>
+                  <span>3D LabelMe</span>
+                </li>
+                <li class="list-item">
+                  <span class="date">2023-1-10</span>
+                  <span>Publish Building3D website</span>
+                </li>
+                <!-- Add more items here -->
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
+    <!-- End Citations Section -->
+
+    <!-- ======= Paper section ======= -->
+    <section id="paper">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Paper Preview</h3>
+            <div class="row">
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/1.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/2.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/3.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/4.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/5.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/6.png" class="img-fluid"></a>
+                </div>
+              </div>
+            </div>
+
+          <div class="row">
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/7.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/8.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/9.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/10.png" class="img-fluid"></a>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="image-container">
+                  <a href="https://arxiv.org/abs/2307.11914"><img src="./assets/files/11.png" class="img-fluid"></a>
+                </div>
+              </div>
+            </div>
+
+          </header>
+      </div>
+    </section>
+    <!-- End Paper Section -->
+
+     <!-- ======= License ======= -->
+    <section id="License">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>License</h3>
+          <p> Building3D dataset and Benchmark © 2022 is licensed under <b><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a></b>. This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license. </p>
+          </header>
+      </div>
+    </section>
+    <!-- End License Section -->
+
+    <!-- ======= Organization ======= -->
+    <section id="organization">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Organizations</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="https://www.ucalgary.ca/labs/spatial-intelligence"> <img src="./assets/img/spatial_intelligence.png" class="img-fluid" alt="Image 1"></a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://www.ucalgary.ca/"><img src="./assets/img/UC.jpg" class="img-fluid" alt="Image 2"></a>
+              </div>
+            </div>
+          </div>
+          </header>
+      </div>
+    </section>
+    <!-- End License Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Building3D</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src='assets/js/record.js'></script>
+  <!-- Template Main JS files -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
