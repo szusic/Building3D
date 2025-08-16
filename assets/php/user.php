@@ -22,7 +22,7 @@ elseif ($_SERVER["REQUEST_METHOD"] == "GET") {
   if (isset($_GET['logout'])) {
     session_unset();
     session_destroy();
-    header("Location: ../../account.php");
+    header("Location: ../../account.html");
     exit;
   }
 }
@@ -45,7 +45,7 @@ function changing(){
       $info =  "Password changed failed!";
     }
     $conn->close();
-    header("Location: ../../information.php?message=$info");
+    header("Location: ../../information.html?message=$info");
   }
 }
 
@@ -69,7 +69,7 @@ function verify(){
     else {
       $info = "The email isn't registered.";
     }
-    header("Location: ../../information.php?message=$info");
+    header("Location: ../../information.html?message=$info");
 }
 
 function login() {
@@ -81,13 +81,13 @@ function login() {
   $result = $conn->query($sql);
   if ($result->num_rows == 0){
     $conn -> close();
-    header("Location: ../../login.php?message=unsuccessful");
+    header("Location: ../../login.html?message=unsuccessful");
   }
   else {
     $_SESSION['email'] = $email;
     // $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
     $conn -> close();
-    header('Location: ../../account.php');
+    header('Location: ../../account.html');
   }
 }
 
@@ -124,7 +124,7 @@ function register() {
       }
     }
     $conn->close();
-    header("Location: ../../information.php?message=$info");
+    header("Location: ../../information.html?message=$info");
 }
 
 function get_user_information($email) {
@@ -155,7 +155,7 @@ function send_change_emails($mailReceiver, $activation_code){
   $config = include 'config.php';
   include 'mail.php';
   $mailSubject = 'Change your password';
-  $activation_link = "http://building3d.ucalgary.ca/changing.php?email=$mailReceiver&code=$activation_code";
+  $activation_link = "http://building3d.ucalgary.ca/changing.html?email=$mailReceiver&code=$activation_code";
   $mailContent = "Chang your password. <p>Please click the link to change your password: $activation_link </p> <p></p><p></p> <p>Regards</p><p><I><b>Building3D Team</b></I></p>" ;
   send_email($to=$mailReceiver, $subject=$mailSubject, $content=$mailContent);
 }

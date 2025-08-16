@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     else if(isset($_GET['entry'])) {
         session_start();
         if (!isset($_SESSION['email'])) {
-        header('Location: ../../../login.php');
+        header('Location: ../../../login.html');
         exit();
         }
         header('Location: ../datasets/entry_level.zip');
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     else if(isset($_GET['Tallinn'])) {
         session_start();
         if (!isset($_SESSION['email'])) {
-        header('Location: ../../../login.php');
+        header('Location: ../../../login.html');
         exit();
         }
         header('Location: ../datasets/Tallinn.zip');
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     else if(isset($_GET['mesh'])) {
         session_start();
         if (!isset($_SESSION['email'])) {
-        header('Location: ../../../login.php');
+        header('Location: ../../../login.html');
         exit();
         }
         header('Location: ../datasets/BuildingMesh.zip');
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     else if(isset($_GET['pointclouds'])) {
         session_start();
         if (!isset($_SESSION['email'])) {
-        header('Location: ../../../login.php');
+        header('Location: ../../../login.html');
         exit();
         }
         header('Location: ../datasets/PointClouds.zip');

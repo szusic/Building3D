@@ -20,5 +20,5 @@ if ($result->num_rows > 0) {
     $info =  "Invalid activation code!";
 }
 $conn->close();
-header("Location: ../../information.php?message=$info");
+header("Location: ../../information.html?message=$info");
 ?>

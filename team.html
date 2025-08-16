@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS files -->
-  <link href="assets/css/verify.css" rel="stylesheet">
+  <link href="assets/css/team.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: BizPage
@@ -37,7 +37,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid">
@@ -51,11 +50,11 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-              <li><a class="nav-link scrollto" href="./reconstruction.php">Reconstruction</a></li>
-              <li><a class="nav-link scrollto" href="./3dlabelme.php">3DLabelMe</a></li>
-              <li><a class="nav-link scrollto" href="./benchmark.php">Benchmark</a></li>
-              <li><a class="nav-link scrollto " href="./team.php">Team</a></li>
-              <li><a class="nav-link scrollto" href="account.php">Account</a></li>
+              <li><a class="nav-link scrollto" href="reconstruction.html">Reconstruction</a></li>
+              <li><a class="nav-link scrollto" href="3dlabelme.html">3DLabelMe</a></li>
+              <li><a class="nav-link scrollto" href="benchmark.html">Benchmark</a></li>
+              <li><a class="nav-link scrollto active" href="./team.html">Team</a></li>
+              <li><a class="nav-link scrollto " href="account.html">Account</a></li>
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -70,45 +69,87 @@
 
   <main id="main">
 
-        <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container" data-aos="fade-up">
+    <!-- ======= Team ======= -->
+    <section id="team">
+      <div class="container">
 
-        <div class="section-header" id="Building3D">
-          <h3>Changing Password</h3>
-        </div>
-
-        <div class="row contact-info">
-          <p class="mb">A link to change your password will be sent to your registered email address. Please check your email.</p>
-        </div>
-
-        <div class="form row">
-          <form action="./assets/php/user.php" method="post" role="form" class="php-email-form" onsubmit="return showLoading()">
-            <div class="row justify-content-center">
-
-              <div class="form-group col-md-5">
-                <label for="email" class="form-label">Email*</label>
-                <input type="email" name="email" class="form-control rounded" id="email" placeholder="Verify email address" required>
+        <header class="section-header">
+          <h3>Building3D Team</h3>
+          <div class="row about-cols d-flex justify-content-center">
+            <div class="col-md-3">
+              <div class="about-col">
+                <div class="img">
+                  <img src="./assets/img/WangRuisheng_ECEng_Sept2012.gif" alt="Ruisheng Wang" class="img-fluid">
+                </div>
+                <h2 class="title"><a href="https://profiles.ucalgary.ca/ruisheng-wang">Ruisheng Wang</a></h2>
+                <p>
+                  <b>Email:</b> <a href="mailto:ruiswang@ucalgary.ca">ruiswang@ucalgary.ca</a>
+                </p>
+                <p>
+                  <b>Organization</b>: University of Calgary
+                </p>
               </div>
-
             </div>
 
-            <!-- <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div> -->
-            <div class="text-center"><button type="submit" class="btn btn-rounded" style="width: 250px">Submit</button></div>
-            <input type="hidden" name="action" value="verify">
+            <div class="col-md-3">
+              <div class="about-col">
+                <div class="img">
+                  <img src="./assets/img/shang.png" alt="Shangfeng Huang" class="img-fluid">
+                </div>
+                <h2 class="title"><a href="">Shangfeng Huang</a></h2>
+                <p>
+                  <b>Email:</b> <a href="mailto:shangfeng.huang@ucalgary.ca">shangfeng.huang@ucalgary.ca</a>
+                </p>
+                <p>
+                  <b>Organization</b>: University of Calgary
+                </p>
+              </div>
+            </div>
 
-          </form>
-        </div>
+            <div class="col-md-3">
+              <div class="about-col">
+                <div class="img">
+                  <img src="./assets/img/YHX.jpg" alt="Hongxin Yang" class="img-fluid">
+                </div>
+                <h2 class="title"><a href="">Hongxin Yang</a></h2>
+                <p>
+                  <b>Email:</b> <a href="mailto:hongxin.yang@ucalgary.ca">hongxin.yang@ucalgary.ca</a>
+                </p>
+                <p>
+                  <b>Organization</b>: University of Calgary
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </header>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Team Section -->
 
-    <div id="loading" style="display:none; position:absolute; top:0; left:0; right:0; bottom:0; background-color:#fff; opacity:0.7; z-index:99999;">
-  <img src="./assets/img/preloader.gif" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">
+    <!-- ======= Team ======= -->
+    <section id="team">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Spatial Intelligence Lab</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="https://www.ucalgary.ca/labs/spatial-intelligence"> <img src="./assets/img/spatial_intelligence.png" class="img-fluid" alt="Image 1"></a>
+                <p class='text-center'> <I><a href="https://www.ucalgary.ca/labs/spatial-intelligence">Spatial Intelligence Lab</a></I></p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+      </div>
+    </section>
+    <!-- End Section -->
+
 
   </main><!-- End #main -->
 
@@ -143,15 +184,12 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
-
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src='assets/js/record.js'></script>
+  
   <!-- Template Main JS files -->
   <script src="assets/js/main.js"></script>
-  <script>
-    function showLoading() {
-      document.getElementById("loading").style.display = "block";
-  }
-</script>
 
 </body>
 
